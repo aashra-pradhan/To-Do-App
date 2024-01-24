@@ -118,10 +118,10 @@
             <h1 id="title"> TO DO LIST</h1>
             <div className="inside">
           <form> 
-              <label htmlFor="name">Enter your name</label>
+              <label htmlFor="name">Enter your task</label>
               <input style={{border:"1px solid black"}} type="text" id="name" name="name" value={name} onChange={handleNameChange}/>
               <br />
-              <button className="buttoncss" onClick={handleClick}>Add name to list</button>
+              <button className="buttoncss" onClick={handleClick}>Add task to list</button>
           </form>
           <br />
           <br />
@@ -132,7 +132,7 @@
       <br />
       <br />
       <br />
-          <p>The list of items</p>
+          <p>The list of tasks</p>
           {
         
           update.map(person=> (
