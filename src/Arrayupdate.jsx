@@ -126,11 +126,7 @@ export default function Arrayupdate() {
               onChange={handleNameChange}
             />
             <br />
-            <button
-              className="buttoncss"
-              onClick={handleClick}
-              disabled={name === "" ? "disabled" : ""}
-            >
+            <button className="buttoncss" onClick={handleClick}>
               Add name to list
             </button>
           </form>
